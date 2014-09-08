@@ -1,0 +1,61 @@
+body {
+ margin: 0; 
+ padding-top: 50px; 
+ -webkit-font-smoothing: antialiased;}
+
+h1 {
+ display: block;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+.biglogo {
+  font-family: UltraLight;
+  letter-spacing: -1px;
+  background: none;
+  line-height: 40px;
+  font-weight: 100;
+  color: #04b4df;
+  font-size: 80px;
+}
+
+#logopadding {
+  padding-top: 0px
+}
+
+#callback {
+  display:block;
+  width:100px;
+  height:50px;
+  position:fixed;
+  right:0;
+  top:105px;
+  z-index: 99999;
+}
+/*Якорь*/
+#up {  
+  display:block;
+  width:100px;
+  height:50px;
+  position:fixed;
+  right:0;
+  bottom:50px;
+  z-index: 99999;
+}
+
+/*
+#copy {
+font-family: Proxima;
+position: absolute;
+margin-top: 23px;
+text-align: left;
+color: #999;
+font-size: 14px;
+}*/
+
+/*выпадение при наведении*/
+.dropdown:hover > .dropdown-menu { 
+    display: block; 
+}
